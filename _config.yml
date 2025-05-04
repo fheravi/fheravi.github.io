@@ -1,8 +1,2 @@
 markdown: kramdown
 theme: null
-plugins:
-  - jekyll-scholar
-collections:
-  bibliography:
-    output: true
-    permalink: /publications/:title
