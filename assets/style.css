@@ -52,3 +52,20 @@ a:hover {
     margin-right: 2rem;
 }
   
+
+
+.about {
+    flex: 2;
+}
+
+.contact {
+    margin-top: 1rem;
+}
+
+.headshot {
+    border-radius: 50%;
+    border:#ED254E;
+    border-radius: 1px;
+    flex: 1;
+    text-align: center;
+}
