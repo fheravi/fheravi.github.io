@@ -1,27 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+
+:root {
+    --background-color: #25292e;
+    /* --background-color: #383838; */
+    --text-color: #EFEFEF;
+    /* --button-color: #c8443c; */
+    --button-color: #ED254E;
+    --border-color: #5d6875;
+    --hover-color: #04DBAC;
+}
+  
+  
 body {
-    font-family: Arial, sans-serif;
-    background: #f9f9f9;
-    color: #333;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    max-width: 600px;
-    margin: 5rem auto;
-    padding: 2rem;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-    text-align: center;
-  }
-  
-  a {
-    color: #007acc;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 2rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+h1.lead {
+    font-weight: 400;
+    opacity: 0.85;
+    margin-bottom: 0.8rem;
+    font-size: 2.5rem;
+}
+
+p {
+    opacity: 0.95;
+}
+
+a {
+    color: var(--button-color);
     text-decoration: none;
-    margin: 0 5px;
-  }
+    opacity: 0.85;
+}
+
+a:hover {
+    color: var(--hover-color);
+    text-decoration: none;
+    opacity: 0.85;
+}
+
+.links a {
+    margin-right: 2rem;
+}
   
-  a:hover {
-    text-decoration: underline;
-  }
