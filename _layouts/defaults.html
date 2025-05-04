@@ -3,10 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }} - Faraz Heravi</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-  {% include navbar.html %}
+    <nav>
+        <ul>
+          <li><a href="/">About</a></li>
+          <li><a href="/publications">Publications</a></li>
+          <li><a href="/cv">CV</a></li>
+        </ul>
+    </nav>
   <main>
     {{ content }}
   </main>
