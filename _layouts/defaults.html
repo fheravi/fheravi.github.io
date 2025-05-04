@@ -2,14 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }} - {{ site.title }}</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <title>{{ page.title }} - Faraz Heravi</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <nav>
-    <a href="/">About</a>
-    <a href="/publications.html">Publications</a>
-  </nav>
+  {% include navbar.html %}
   <main>
     {{ content }}
   </main>
