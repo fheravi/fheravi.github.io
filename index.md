@@ -19,5 +19,5 @@ layout: default
 </div>
 
 <div class="headshot">
-  <img src="{{ '/assets/headshot.png' | relative_url }}" alt="headshot" width="500">
+  <img src="./assets/headshot.png" alt="headshot" width="500">
 </div>
