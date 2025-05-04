@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f6f6f6;
+  }
+  nav {
+    background: #222;
+    padding: 1em;
+  }
+  nav a {
+    color: #fff;
+    margin-right: 1em;
+    text-decoration: none;
+  }
+  main {
+    max-width: 800px;
+    margin: 2em auto;
+    background: #fff;
+    padding: 2em;
+    border-radius: 8px;
+  }
+  
