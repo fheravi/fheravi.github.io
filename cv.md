@@ -2,10 +2,8 @@
 title: CV
 layout: default
 ---
-
-
-## Education
 ***
+## Education  
 
 **University of Texas at Austin**, Austin, TX   
 Master of Science in Computer Science  
@@ -15,9 +13,8 @@ Master of Science in Computer Science
 Bachelor of Science in Mathematics and Computer Science  
 (2017-2020)  
 
-
-## Experience
 ***
+## Experience  
 
 **Software Engineer** at The Vanguard Group  
 (2021-Present)  
@@ -25,8 +22,7 @@ Bachelor of Science in Mathematics and Computer Science
 **STEM Tutor** at Temple University  
 (2018-2021)  
 
-
-## Research
 ***
+## Research  
 
-Refer to [Publications](publications.md)
+Refer to [Publications](publications.md).
