@@ -21,30 +21,35 @@ body {
 .main-content {
     max-width: 700px;
     margin: 2rem auto;
-    padding: 0 1rem;    /* some padding on smaller screens */
+    padding: 0 1rem;
     font-size: 1rem;
     line-height: 1.6;
-    text-align: left;
+    text-align: justify;
 }
 
-h1.lead {
-    font-weight: 400;
+h1, h2, h3 {
+    font-weight: 700;
     opacity: 0.85;
-    margin-bottom: 0.8rem;
-    margin-top: 2.5rem;
-    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 
 .navbar {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 5rem;
     margin-top: 5rem;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 
 p {
+    font-weight: 400;
     opacity: 0.95;
+}
+
+strong {
+    font-weight: 700;
+    opacity: 0.85;
 }
 
 a {
@@ -67,13 +72,13 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 5rem;
     margin-bottom: 2rem;
     flex-wrap: wrap;
 }
 
 #social a {
-    margin-right: 1.5rem;
+    margin-right: 1.1rem;
 }
 
 .contact {
@@ -81,8 +86,7 @@ a:hover {
 }
 
 .headshot {
-    width: 140px;
-    height: 140px;
+    width: 200px;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid #ED254E;
@@ -91,7 +95,7 @@ a:hover {
   }
   
 .headshot:hover {
-transform: scale(1.05);  /* subtle zoom on hover */
+    transform: scale(1.05);  /* subtle zoom on hover */
 }
 
 
