@@ -18,6 +18,15 @@ body {
     color: var(--text-color);
 }
 
+.main-content {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 0 1rem;    /* some padding on smaller screens */
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: left;
+}
+
 h1.lead {
     font-weight: 400;
     opacity: 0.85;
@@ -30,6 +39,7 @@ h1.lead {
     display: flex;
     justify-content: center;
     gap: 2rem;
+    margin-top: 5rem;
     font-size: 1.1rem;
 }
 
@@ -52,21 +62,34 @@ a:hover {
 .links a {
     margin-right: 2rem;
 }
-  
-
-
-.about {
-    flex: 2;
-}
 
 .contact {
     margin-top: 1rem;
 }
 
-.headshot {
+/* .headshot {
     border-radius: 50%;
     border:#ED254E;
     border-radius: 1px;
     flex: 1;
     text-align: center;
+} */
+
+.headshot {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ED254E;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+.headshot:hover {
+transform: scale(1.05);  /* subtle zoom on hover */
+}
+
+
+#email {
+    color: #04DBAC
 }

@@ -3,7 +3,12 @@ title: Publications
 layout: default
 ---
 
-## Selected Publications
+## Selected Publications and Papers
 
-- **Doe, J.**, & Smith, J. (2022). *Deep Learning for Something*. *Journal of AI*.
-- **Doe, J.** (2021). *Another Title*. *Conference on ML Research*.
+**Curriculum Learning in Reinforcement Learning for Multi-Step Manipulation Tasks**  
+Faraz Heravi  
+Master's thesis, advised by Dr. [Peter Stone](https://www.cs.utexas.edu/~pstone/)  
+  
+**Video Game Music Generation Using Recurrent Neural Network**  
+Faraz Heravi, Yousif Kako  
+Undergraduate thesis, advised by Dr. Andrew Rosen

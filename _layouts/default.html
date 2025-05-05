@@ -15,6 +15,20 @@
   </header>
 
   <main class="main-content">
+    {% if page.url == "/" %}
+      <div class="about">
+        <img src="/assets/headshot.png" alt="Headshot" class="headshot">
+        <div class="contact">
+          <h1>Faraz Heravi</h1>
+          <p id="email">farazh [at] utexas [dot] edu</p>
+          <p>
+            <a href="https://linkedin.com/in/farazheravi">LinkedIn</a>
+            <a href="https://github.com/fheravi">Github</a>
+          </p>
+        </div>
+      </div>
+    {% endif %}
+
     {{ content }}
   </main>
 </body>
