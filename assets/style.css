@@ -94,6 +94,7 @@ a:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     object-fit: cover;
     transition: transform 0.3s ease;
+    transform-origin: center center;
 }
 
 .headshot {
@@ -101,7 +102,7 @@ a:hover {
     transform: translate(-35px, -25px);
   }
   
-.headshot-container :hover {
+.headshot-container:hover {
     transform: scale(1.05);  /* subtle zoom on hover */
 }   
 
