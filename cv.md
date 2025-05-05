@@ -15,7 +15,6 @@ Master of Science in Computer Science
 Bachelor of Science in Mathematics and Computer Science  
 (2017-2020)  
 
-  
 
 ## Experience
 ***

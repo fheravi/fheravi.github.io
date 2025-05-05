@@ -63,17 +63,22 @@ a:hover {
     margin-right: 2rem;
 }
 
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+#social a {
+    margin-right: 1.5rem;
+}
+
 .contact {
     margin-top: 1rem;
 }
-
-/* .headshot {
-    border-radius: 50%;
-    border:#ED254E;
-    border-radius: 1px;
-    flex: 1;
-    text-align: center;
-} */
 
 .headshot {
     width: 140px;
