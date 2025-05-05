@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
 :root {
     --background-color: #25292e;
@@ -12,7 +12,7 @@
 }
   
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto-Slab', sans-serif;
     padding-bottom: 2rem;
     background-color: var(--background-color);
     color: var(--text-color);
@@ -85,16 +85,23 @@ a:hover {
     margin-top: 1rem;
 }
 
-.headshot {
+.headshot-container {
     width: 200px;
-    border-radius: 50%;
-    object-fit: cover;
+    height: 200px;
+    overflow: hidden;
     border: 2px solid #ED254E;
+    border-radius: 50%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
     transition: transform 0.3s ease;
+}
+
+.headshot {
+    width: 300px;
+    transform: translate(-35px, -25px);
   }
   
-.headshot:hover {
+.headshot-container :hover {
     transform: scale(1.05);  /* subtle zoom on hover */
 }
 

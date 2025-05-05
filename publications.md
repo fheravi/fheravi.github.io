@@ -6,7 +6,7 @@ layout: default
 ## Selected Publications and Papers
   
 ### [Curriculum Learning in Reinforcement Learning for Multi-Step Manipulation Tasks]()
-Faraz Heravi
+Faraz Heravi  
 *Master's thesis, advised by Dr. [Peter Stone](https://www.cs.utexas.edu/~pstone/), 2025*
 <details>
   <summary>Abstract</summary>
@@ -15,7 +15,7 @@ Faraz Heravi
 </details>
   
 ### [Video Game Music Generation Using Recurrent Neural Network](https://github.com/fheravi/MusicGenerator/blob/master/White%20Paper.pdf) 
-Faraz Heravi, Yousif Kako, Andrew Rosen
+Faraz Heravi, Yousif Kako, Andrew Rosen  
 *2020*
 <details>
   <summary>Abstract</summary>
