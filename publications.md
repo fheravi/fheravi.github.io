@@ -8,7 +8,7 @@ layout: default
   
 **Curriculum Learning in Reinforcement Learning for Multi-Step Manipulation Tasks**  
 Faraz Heravi  
-Master's thesis, advised by Dr. [Peter Stone](https://www.cs.utexas.edu/~pstone/)  
+Master's thesis, advised by Dr. Peter Stone
   
 **Video Game Music Generation Using Recurrent Neural Network**  
 Faraz Heravi, Yousif Kako  
