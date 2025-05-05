@@ -18,7 +18,9 @@
   <main class="main-content">
     {% if page.url == "/" %}
       <div class="about">
-        <img src="{{ site.headshot }}" alt="Headshot" class="headshot">
+        <div class="headshot-container">
+          <img src="{{ site.headshot }}" alt="Headshot" class="headshot">
+        </div>
         <div class="contact">
           <h1>Faraz Heravi</h1>
           <p id="email">{{ site.email }}</p>
