@@ -28,8 +28,8 @@ body {
 }
 
 h1, h2, h3 {
-    font-weight: 700;
-    opacity: 0.85;
+    font-weight: 600;
+    opacity: 0.95;
     margin-bottom: 1rem;
     margin-top: 2rem;
 }
@@ -44,24 +44,24 @@ h1, h2, h3 {
 
 p {
     font-weight: 300;
-    opacity: 0.95;
+    opacity: 0.90;
 }
 
 strong {
-    font-weight: 700;
-    opacity: 0.85;
+    font-weight: 600;
+    opacity: 0.95;
 }
 
 a {
     color: var(--button-color);
     text-decoration: none;
-    opacity: 0.85;
+    opacity: 0.90;
 }
 
 a:hover {
     color: var(--hover-color);
     text-decoration: none;
-    opacity: 0.85;
+    opacity: 0.90;
 }
 
 .links a {
