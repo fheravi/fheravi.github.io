@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="{{ '/' | relative_url }}">About</a>
+      <a href="{{ '/publications' | relative_url }}">Publications</a>
+      <a href="{{ '/cv' | relative_url }}">CV</a>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    {% if page.url == "/" %}
+      <div class="about">
+        <div class="headshot-container">
+          <img src="{{ site.headshot }}" alt="Headshot" class="headshot">
+        </div>
+        <div class="contact">
+          <h1>Faraz Heravi</h1>
+          <p id="email">{{ site.email }}</p>
+          <p id="social">
+            <a href="{{ site.linkedin }}" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="{{ site.github }}" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+          </p>
+        </div>
+      </div>
+    {% endif %}
+
+    {{ content }}
+  </main>
+</body>
+</html>
