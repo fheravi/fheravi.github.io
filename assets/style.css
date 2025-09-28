@@ -114,10 +114,16 @@ a:hover {
     .main-content {
         max-width: 300px;
     }
+    .navbar {
+        max-width: 300px;
+    }
 }
 
 @media (max-width: 400px) {
     .main-content {
+        max-width: 200px;
+    }
+    .navbar {
         max-width: 200px;
     }
 }
