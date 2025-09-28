@@ -5,7 +5,7 @@ layout: default
 
 ## Selected Publications and Papers
   
-### [Curriculum Learning in Reinforcement Learning for Multi-Step Manipulation Tasks]()
+### [Curriculum Learning in Reinforcement Learning for Multi-Step Manipulation Tasks](https://repositories.lib.utexas.edu/items/d2251975-b0b3-44a1-aaad-6953ebe46387)
 Faraz Heravi  
 *Master's thesis, advised by Dr. [Peter Stone](https://www.cs.utexas.edu/~pstone/), 2025*
 <details>
