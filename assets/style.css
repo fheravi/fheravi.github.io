@@ -115,3 +115,9 @@ a:hover {
         max-width: 350px;
     }
 }
+
+@media (max-width: 400px) {
+    .main-content {
+        max-width: 300px;
+    }
+}
