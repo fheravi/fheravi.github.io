@@ -109,3 +109,9 @@ a:hover {
 #email {
     color: #04DBAC
 }
+
+@media (max-width: 500px) {
+    .main-content {
+        max-width: 350px;
+    }
+}
