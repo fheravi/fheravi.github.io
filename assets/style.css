@@ -112,12 +112,12 @@ a:hover {
 
 @media (max-width: 500px) {
     .main-content {
-        max-width: 350px;
+        max-width: 300px;
     }
 }
 
 @media (max-width: 400px) {
     .main-content {
-        max-width: 300px;
+        max-width: 200px;
     }
 }
