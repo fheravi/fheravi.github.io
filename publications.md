@@ -6,8 +6,8 @@ layout: default
 ## Selected Publications and Papers
 
 ### [Spinel: A Post-Quantum Signature Scheme Based on SLn(𝔽p)](https://arxiv.org/abs/2602.09882)
-Asmaa Cherkaoui, Faraz Heravi, Delaram Kahrobaei, Siamak F. Shahandashti.
-2026.
+Asmaa Cherkaoui, Faraz Heravi, Delaram Kahrobaei, Siamak F. Shahandashti.  
+2026.  
 <details>
   <summary>Abstract</summary>
   <p>The advent of quantum computation compels the cryptographic community to design digital signature schemes whose security extends beyond the classical hardness assumptions. In this work, we introduce Spinel, a post-quantum digital signature scheme that combines the proven security of SPHINCS+ (CCS 2019) with a new family of algebraic hash functions (Adv. Math. Commun. 2025) derived from the Tillich-Zemor paradigm (Eurocrypt 2008) with security rooted in the hardness of navigating expander graphs over SLn(𝔽p), a problem believed to be hard even for quantum adversaries. We first provide empirical evidence of the security of this hash function, complementing the original theoretical analysis. We then show how the hash function can be integrated within the SPHINCS+ framework to give a secure signature scheme. We then model and analyze the security degradation of the proposed scheme, which informs the parameter selection we discuss next. Finally, we provide an implementation of the hash function and the proposed signature scheme Spinel as well as detailed empirical results for the performance of Spinel showing its feasibility in practice. Our approach lays the foundations for the design of algebraic hash-based signature schemes, expanding the toolkit of post-quantum cryptography.
@@ -15,8 +15,8 @@ Asmaa Cherkaoui, Faraz Heravi, Delaram Kahrobaei, Siamak F. Shahandashti.
 </details>
 
 ### [LEACL: LLM-Enhanced Automatic Curriculum Learning for Reinforcement Learning in Long-Horizon Manipulation Tasks](https://arxiv.org/abs/2607.23515)
-Faraz Heravi, James Ouyang, Zifan Xu, Arjun Kumar, Yoonchang Sung, Peter Stone.
-In The *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2026.
+Faraz Heravi, James Ouyang, Zifan Xu, Arjun Kumar, Yoonchang Sung, Peter Stone.  
+In The *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2026.  
 <details>
   <summary>Abstract</summary>
   <p>Long-horizon manipulation tasks pose significant challenges for reinforcement learning due to sparse reward signals and long horizons. Automatic curriculum learning (ACL) has been proposed to tackle these challenges by progressively training agents on a sequence of tasks, from easier to more difficult. However, the success of ACL depends heavily on task-dependent specifications-such as well-defined task parameter spaces and difficulty measures-which are often manually crafted and difficult to generalize across diverse tasks. Recent advances in large language models (LLMs) offer a promising alternative by enabling the decomposition of complex tasks into meaningful subtasks using the LLMs' web-scale common-sense knowledge. This decomposition can provide a natural curriculum structure for efficient learning of long-horizon tasks. However, existing LLM-based methods typically rely on hand-designed dense reward functions to learn each subtask, which can introduce bias and still requires significant human supervision.
