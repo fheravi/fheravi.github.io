@@ -6,7 +6,7 @@ layout: default
 ***
 ## Education  
 **Purdue University**, West Lafayette, IN   
-PhD in Computer Science
+PhD in Computer Science  
 *2026-Present*
 
 **University of Texas at Austin**, Austin, TX    
