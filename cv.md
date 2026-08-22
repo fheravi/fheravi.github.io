@@ -5,7 +5,7 @@ layout: default
 
 ***
 ## Education  
-**Purdue University**, West Lafayette, IN
+**Purdue University**, West Lafayette, IN   
 PhD in Computer Science
 *2026-Present*
 
