@@ -5,6 +5,9 @@ layout: default
 
 ***
 ## Education  
+**Purdue University**, West Lafayette, IN
+PhD in Computer Science
+*2026-Present*
 
 **University of Texas at Austin**, Austin, TX    
 Master of Science in Computer Science  
