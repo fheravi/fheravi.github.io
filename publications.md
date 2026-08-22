@@ -34,7 +34,7 @@ Faraz Heravi
 </details>
   
 ### [Video Game Music Generation Using Recurrent Neural Network](https://github.com/fheravi/MusicGenerator/blob/master/White%20Paper.pdf) 
-Faraz Heravi, Yousif Kako, Andrew Rosen  
+Faraz Heravi, Yousif Kako, Andrew Rosen.    
 *Undergraduate thesis*, advised by Dr. Rosen. 2020.
 <details>
   <summary>Abstract</summary>
