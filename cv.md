@@ -21,7 +21,7 @@ Bachelor of Science in Mathematics and Computer Science
 ## Experience  
 
 **Software Engineer** at The Vanguard Group  
-*(2021-Present)* 
+*(2021-2026)* 
 
 **STEM Tutor** at Temple University  
 *(2018-2021)*  
